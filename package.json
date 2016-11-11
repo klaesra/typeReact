@@ -1,0 +1,12 @@
+{
+  "name": "typeReact",
+  "version": "0.0.1",
+  "description": "Use TypeScript to do React",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:klaesra/typeReact.git",
+    "type": "git"
+  },
+  "author": "Klaes Rasmussen <k@klaes.dk>",
+  "license": "MIT"
+}
