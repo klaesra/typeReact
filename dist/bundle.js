@@ -76,7 +76,7 @@
 	            this.props.compiler, 
 	            " and ", 
 	            this.props.framework, 
-	            "!");
+	            " and Klaes!!!");
 	    }
 	}
 	exports.Hello = Hello;
