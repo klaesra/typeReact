@@ -7,8 +7,11 @@
         "jsx": "react",
         "sourceMap": true
     },
-    "files": [
-        "./src/components/Hello.tsx",
-        "./src/index.tsx"
-    ]
+    "include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts"
+	]
 }
