@@ -2,7 +2,7 @@
   "name": "typeReact",
   "version": "0.0.1",
   "description": "Use TypeScript to do React",
-  "main": "index.js",
+  "main": "src/index.tsx",
   "repository": {
     "url": "git@github.com:klaesra/typeReact.git",
     "type": "git"
