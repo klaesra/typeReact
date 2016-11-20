@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/5ad563cfc0e00afa2afabd44e7eb3647547eee59/aphrodite/aphrodite.d.ts",
+    "raw": "registry:dt/aphrodite#0.5.0+20160724060110",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/5ad563cfc0e00afa2afabd44e7eb3647547eee59/aphrodite/aphrodite.d.ts"
+  }
+}
