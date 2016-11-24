@@ -18,7 +18,7 @@ class Hello extends React.Component<HelloProps, {}> {
 
 const styles = StyleSheet.create({
 	red: {
-		color: 'red'
+		color: 'blue'
 	}
 })
 

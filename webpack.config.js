@@ -13,7 +13,8 @@ module.exports = {
 		main: './src/index.tsx', // main is [name] for filename in output
 		vendor: [
 			'babel-polyfill',
-			'react'
+			'react',
+			'react-dom'
 		]
 	},
 	output: {
@@ -76,10 +77,4 @@ module.exports = {
 		poll: 300,
 		ignored: /node_modules/,
 	},
-
-	externals: {
-		"react": "React",
-		"react-dom": "ReactDOM"
-	},
-
 };
