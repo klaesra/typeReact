@@ -18,7 +18,7 @@ class App extends Component<{}, {}> {
     return (
       <BrowserRouter routeConfig={routeConfig}>
         <div>
-          <Link href='/'>Index</Link> | <Link href='/about'>About</Link>
+          <Link href='/'>Index</Link> | <Link href='/about'>About</Link> | <Link href='/missme'>No find dis</Link>
           <RouterMountpoint />
         </div>
       </BrowserRouter>
