@@ -1,8 +1,10 @@
-declare module "reasonable-router";
-declare var _BrowserRouter: any;
-declare var _ServerRouter: any;
-declare var _RouterMountpoint: any;
-declare var _Fragment: any;
-declare var _Link: any;
-declare var _matchRoute: any;
-declare function _interopRequireDefault(obj: any): any;
+declare module "reasonable-router" {
+	import * as React from 'react';
+	var BrowserRouter: any;
+	var ServerRouter: any;
+	var RouterMountpoint: any;
+	var Fragment: any;
+	var Link: any;
+	var matchRoute: any;
+	function interopRequireDefault(obj: any): any;
+}

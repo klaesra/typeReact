@@ -8,7 +8,7 @@ const NotFound : any = null;
 const routeConfig : Object = {
     routes: {
 		'/': { component: () => <h1 className={css(styles.red)}>Index</h1> },
-		'/about': { component: () => <h1 className={css(styles.red)}>About</h1> },
+		'/about': { component: () => <h1 className={css(styles.blue)}>About</h1> },
     },
     miss: () => <h1>Not found :(</h1>
 };
