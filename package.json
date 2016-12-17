@@ -15,16 +15,13 @@
     "server": "webpack-dev-server --hot --inline --progress --colors"
   },
   "dependencies": {
-    "@types/react": "^0.14.47",
-    "@types/react-dom": "^0.14.18",
-    "@types/redux": "^3.6.31",
     "aphrodite": "^1.1.0",
     "css-loader": "^0.26.0",
     "normalize.css": "^5.0.0",
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
     "react-redux": "^4.4.5",
-    "reasonable-router": "^1.2.3",
+    "reasonable-router": "^2.0.0-beta.1",
     "redux": "^3.6.0",
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.13.1",
@@ -34,6 +31,9 @@
   },
   "devDependencies": {
     "@types/aphrodite": "^0.5.4",
+    "@types/react": "^0.14.52",
+    "@types/react-dom": "^0.14.19",
+    "@types/redux": "^3.6.0",
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.7",
     "babel-polyfill": "^6.16.0",

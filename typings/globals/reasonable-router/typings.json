@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "/home/klaes/projects/typeReact/src/types/reasonable-router/reasonable-router.d.ts",
+    "raw": "file:src/types/reasonable-router/reasonable-router.d.ts",
+    "typings": "/home/klaes/projects/typeReact/src/types/reasonable-router/reasonable-router.d.ts"
+  }
+}

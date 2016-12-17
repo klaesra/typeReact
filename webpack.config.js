@@ -13,6 +13,7 @@ module.exports = {
 		main: './src/index.tsx', // main is [name] for filename in output
 		vendor: [
 			'babel-polyfill',
+			'reasonable-router',
 			'react',
 			'react-dom'
 		]
