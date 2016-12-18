@@ -27,9 +27,14 @@ module.exports = {
 
 	//Enable sourcemaps
 	devtool: "source-map",
+	// plugins: [
+	// 	new UglifyJsPlugin({
+	// 		sourceMap: true
+	// 	})
+	// ],
 
 	module: {
-		loaders: [
+		rules: [
 			{
 				test: /\.ts(x)?$/,
 				exclude: /node_modules/,
@@ -39,16 +44,13 @@ module.exports = {
 				test: /\.js$/,
 				exclude: /node_modules/,
 				loader: 'babel-loader?cacheDirectory'
+			},
+			{
+				test: /\.js$/,
+				enforce: 'pre',
+				loader: 'source-map-loader'
 			}
 		],
-
-		preLoaders: [
-			{ test: /\.js$/, loader: 'source-map-loader' }
-		]
-	},
-
-	resolveLoader: {
-		root: path.join(__dirname, 'node_modules')
 	},
 
 	resolve: {
@@ -62,7 +64,7 @@ module.exports = {
 		// directories where to look for modules
 
 		// Add typescript files as resolveable
-		extensions: ["", 'webpack.js', '.web.js', '.ts', '.tsx', '.js', '.jsx', '.css', '.json'],
+		extensions: ['webpack.js', '.web.js', '.ts', '.tsx', '.js', '.jsx', '.css', '.json'],
 		// extensions that are used
 
 		alias: {
@@ -75,7 +77,7 @@ module.exports = {
 
 	watchOptions: {
 		aggregateTimeout: 100,
-		poll: 300,
+		poll: 200,
 		ignored: /node_modules/,
 	},
 };
